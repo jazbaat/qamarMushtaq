@@ -1,0 +1,682 @@
+.one {
+    width: 100%;
+    height: 500px;
+    background: #b34180;
+    box-shadow: 1px 1px 1px #75D5FD;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+    margin-left: 2%;
+}
+
+#one {
+    background: #b34180;
+    color: #ffee93;
+    position: sticky;
+    top: 0%;
+}
+
+#navbarNav {
+    margin-left: 38%;
+}
+
+#navbarNav ul li {
+    margin-left: 5%;
+}
+
+li a {
+    color: #ffee93;
+    transition: 0.4s ease-in-out;
+}
+
+.container-fluid a {
+    color: #ffee93;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: white;
+}
+
+.home {
+    color: white;
+    margin-top: 10%;
+}
+
+.home img {
+    display: inline;
+    width: 3%;
+    margin-left: 2%;
+    transition: 0.3s ease-in-out;
+}
+
+.home img:hover {
+    transform: translateY(-15px);
+}
+
+.home h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 65px;
+}
+
+.home p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.html {
+    width: 99%;
+    background-color: #00adb5;
+    border-radius: 100px;
+    text-align: center;
+    height: 14px;
+    font-size: 11px;
+    scrollbar-3dlight-color: dodgerblue;
+    scroll-behavior: smooth;
+}
+
+.two {
+    width: 40%;
+    color: white;
+    height: 14px;
+    background-color: #393e46;
+    border-radius: 100px;
+    text-align: left;
+}
+
+.js {
+    width: 65%;
+    background-color: #d4d641;
+    border-radius: 100px;
+    text-align: center;
+    height: 14px;
+    font-size: 11px;
+}
+
+.flask {
+    width: 90%;
+    background-color: #666587;
+    border-radius: 100px;
+    text-align: center;
+    height: 14px;
+    font-size: 11px;
+}
+
+.ps {
+    width: 100%;
+    background-color: #4a1c8a;
+    border-radius: 100px;
+    text-align: center;
+    height: 14px;
+    font-size: 11px;
+}
+
+.css {
+    width: 99%;
+    background-color: #c5076f;
+    border-radius: 100px;
+    text-align: center;
+    height: 14px;
+    font-size: 11px;
+}
+
+.Bootstrap {
+    width: 80%;
+    background-color: #07af29;
+    border-radius: 100px;
+    text-align: center;
+    height: 14px;
+    font-size: 11px;
+}
+
+.skills h3 {
+    font-family: helvetica;
+    font-size: 15px;
+}
+
+.about {
+    margin-top: 14%;
+    width: 100%;
+    background-image: url("qamar.jpg");
+    height: 500px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(92, 6, 126, 0.8);
+}
+
+.project {
+    margin-top: 18%;
+}
+
+.projectImages img {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.img1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img1 img {
+    margin-top: 15%;
+}
+
+.img2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img2 img {
+    margin-top: 15%;
+    width: 70%;
+}
+
+.wrapper img {
+    transition: 0.5s ease-in;
+    box-shadow: 1px 2px 4px rgb(30, 38, 38);
+}
+
+.wrapper img:hover {
+    box-shadow: 1px 2px 5px teal;
+    transform: translateY(-15px)
+}
+
+.texts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10%;
+}
+
+.texts .text1s {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+}
+
+.texts .text2s {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(27, 197, 180);
+}
+
+.text2s {
+    border-left: 2px solid white;
+}
+
+.contact {
+    margin-top: 15%;
+    display: block;
+}
+
+#inp1 {
+    width: 35%;
+    border-radius: 10px;
+    height: 55px;
+    outline: none;
+    border: 2px solid teal;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+
+#button {
+    width: 10%;
+    color: white;
+    margin-left: 25%;
+}
+
+textarea {
+    outline: none;
+    border: 2px solid teal;
+    border-radius: 10px;
+}
+
+::placeholder {
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+footer {
+    margin-top: 7%;
+    width: 100%;
+    height: 320px;
+    background: #b34180;
+}
+
+.con img {
+    width: 3%;
+    margin-left: 2%;
+    transition: 0.4s ease-in-out;
+}
+
+.con img:hover {
+    width: 3%;
+    margin-left: 2%;
+    transform: translateY(-15px);
+}
+
+
+/**/
+
+
+/**/
+
+
+/*  900px    */
+
+@media all and (max-width:900px) {
+    .home h1 {
+        font-family: 'Sacramento', cursive;
+        font-size: 60px;
+    }
+    .home p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+    .home img {
+        display: inline;
+        width: 4%;
+        margin-left: 3%;
+        transition: 0.3s ease-in-out;
+    }
+    .projectImages img {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .img1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .img1 img {
+        margin-top: 18%;
+    }
+    .img2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .img2 img {
+        margin-top: 10%;
+        width: 80%;
+    }
+    .con img {
+        width: 4%;
+        margin-left: 2%;
+        transition: 0.4s ease-in-out;
+    }
+}
+
+
+/**/
+
+
+/**/
+
+
+/*  650px    */
+
+@media all and (max-width:650px) {
+    .home h1 {
+        font-family: 'Sacramento', cursive;
+        font-size: 60px;
+    }
+    .home p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+    .home img {
+        display: inline;
+        width: 4%;
+        margin-left: 3%;
+        transition: 0.3s ease-in-out;
+    }
+    .projectImages img {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .img1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .img1 img {
+        margin-top: 18%;
+    }
+    .img2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .img2 img {
+        margin-top: 10%;
+        width: 80%;
+    }
+    .con img {
+        width: 5%;
+        margin-left: 2%;
+        transition: 0.4s ease-in-out;
+    }
+    .texts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 10%;
+    }
+    .texts .text1s {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        color: white;
+    }
+    .texts .text2s {
+        margin-left: 10%;
+        margin-top: 15%;
+        margin-right: 10%;
+        color: rgb(27, 197, 180);
+        width: 90%;
+    }
+    .text2s {
+        border-left: 2px solid white;
+    }
+    .contact {
+        margin-top: 15%;
+        display: block;
+    }
+    #inp1 {
+        width: 50%;
+        border-radius: 10px;
+        height: 55px;
+        outline: none;
+        border: 2px solid teal;
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    #button {
+        width: 20%;
+        color: white;
+        margin-left: 25%;
+    }
+    textarea {
+        outline: none;
+        border: 2px solid teal;
+        border-radius: 10px;
+    }
+     ::placeholder {
+        font-family: calibri;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 5px;
+    }
+}
+
+
+/*  500px    */
+
+@media all and (max-width:500px) {
+    .home h1 {
+        font-family: 'Sacramento', cursive;
+        font-size: 50px;
+    }
+    .home p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+    .home img {
+        display: inline;
+        width: 6%;
+        margin-left: 3%;
+        transition: 0.3s ease-in-out;
+    }
+    .projectImages img {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .img1 {
+        display: block;
+    }
+    .img1 img {
+        margin-top: 18%;
+    }
+    .img2 {
+        display: block;
+    }
+    .img2 img {
+        margin-top: 10%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .con img {
+        width: 7%;
+        margin-left: 2%;
+        transition: 0.4s ease-in-out;
+    }
+    .texts {
+        display: block;
+        margin-top: 10%;
+    }
+    .texts .text1s {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        color: white;
+    }
+    .texts .text2s {
+        margin-left: 15%;
+        margin-top: 10%;
+        margin-right: 15%;
+        color: rgb(27, 197, 180);
+        width: 50%;
+    }
+    .contact {
+        margin-top: 15%;
+        display: block;
+    }
+    #inp1 {
+        width: 75%;
+        border-radius: 10px;
+        height: 55px;
+        outline: none;
+        border: 2px solid teal;
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    #button {
+        width: 20%;
+        color: white;
+        margin-left: 25%;
+    }
+    textarea {
+        outline: none;
+        border: 2px solid teal;
+        border-radius: 10px;
+    }
+     ::placeholder {
+        font-family: calibri;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 5px;
+    }
+}
+
+
+/*  500px    */
+
+@media all and (max-width:500px) {
+    .home h1 {
+        font-family: 'Sacramento', cursive;
+        font-size: 50px;
+    }
+    .home p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+    .home img {
+        display: inline;
+        width: 7%;
+        margin-left: 3%;
+        transition: 0.3s ease-in-out;
+    }
+    .projectImages img {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .img1 {
+        display: block;
+    }
+    .img1 img {
+        margin-top: 18%;
+    }
+    .img2 {
+        display: block;
+    }
+    .img2 img {
+        margin-top: 10%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .con img {
+        width: 7%;
+        margin-left: 2%;
+        transition: 0.4s ease-in-out;
+    }
+    .texts {
+        display: block;
+        margin-top: 10%;
+    }
+    .texts .text1s {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        color: white;
+    }
+    .texts .text2s {
+        margin-left: 15%;
+        margin-top: 10%;
+        margin-right: 15%;
+        color: rgb(27, 197, 180);
+        width: 50%;
+    }
+    .contact {
+        margin-top: 15%;
+        display: block;
+    }
+    #inp1 {
+        width: 80%;
+        border-radius: 10px;
+        height: 55px;
+        outline: none;
+        border: 2px solid teal;
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    #button {
+        width: 30%;
+        color: white;
+        margin-left: 50%;
+    }
+    textarea {
+        outline: none;
+        border: 2px solid teal;
+        border-radius: 10px;
+    }
+     ::placeholder {
+        font-family: calibri;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 5px;
+    }
+}
+
+
+/*  380px    */
+
+@media all and (max-width:500px) {
+    .home h1 {
+        font-family: 'Sacramento', cursive;
+        font-size: 50px;
+    }
+    .home p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+    .home img {
+        display: inline;
+        width: 7%;
+        margin-left: 4%;
+        transition: 0.3s ease-in-out;
+        margin-top: 8%;
+    }
+    .projectImages img {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .img1 {
+        display: block;
+    }
+    .img1 img {
+        margin-top: 18%;
+    }
+    .img2 {
+        display: block;
+    }
+    .img2 img {
+        margin-top: 10%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .con img {
+        width: 8%;
+        margin-left: 3%;
+        transition: 0.4s ease-in-out;
+    }
+    .texts {
+        display: block;
+        margin-top: 10%;
+    }
+    .texts .text1s {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        color: white;
+    }
+    .texts .text2s {
+        margin-left: 15%;
+        margin-top: 10%;
+        margin-right: 15%;
+        color: rgb(27, 197, 180);
+        width: 50%;
+    }
+    .contact {
+        margin-top: 15%;
+        display: block;
+    }
+    #inp1 {
+        width: 85%;
+        border-radius: 10px;
+        height: 55px;
+        outline: none;
+        border: 2px solid teal;
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    }
+    #button {
+        width: 30%;
+        color: white;
+        margin-left: 55%;
+    }
+    textarea {
+        outline: none;
+        border: 2px solid teal;
+        border-radius: 10px;
+        width: 85%;
+    }
+     ::placeholder {
+        font-family: calibri;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 5px;
+    }
+}
